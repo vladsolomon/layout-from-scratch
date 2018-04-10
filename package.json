@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "http-server",
-    "start": "webpack --watch & npm run serve",
+    "start": "webpack & npm run serve",
     "postinstall": "webpack",
     "build": "webpack"
   },
@@ -31,6 +31,7 @@
     "less-loader": "^4.0.5",
     "style-loader": "^0.19.0",
     "webpack": "^3.8.1",
-    "webpack-dev-server": "^2.9.3"
+    "webpack-dev-server": "^2.9.3",
+    "http-server": "latest"
   }
 }
