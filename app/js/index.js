@@ -1,1 +1,1 @@
-import '../style/style.less'
+import '../style/style.scss'
